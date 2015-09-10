@@ -1,7 +1,7 @@
 {
-  "name": "less",
+  "name": "less-vars",
   "version": "2.5.1",
-  "description": "Leaner CSS",
+  "description": "show variable definitions and values",
   "homepage": "http://lesscss.org",
   "author": {
     "name": "Alexis Sellier",
@@ -19,7 +19,7 @@
   },
   "license": "Apache-2.0",
   "bin": {
-    "lessc": "./bin/lessc"
+    "less-vars": "./bin/less-vars"
   },
   "main": "index",
   "directories": {
