@@ -2,6 +2,10 @@
 
 Show how variables are defined in your less files, including how their values are changed during the compilation process.
 
+```sh
+npm install less-vars
+```
+
 in `my.less`:
 
 ```less
@@ -16,9 +20,10 @@ in `my.less`:
 }
 ```
 
+Then `less-vars my.less`:
+
 ```sh
-> less-vars my.less
-/path/blah.less(1): @variable blue
-/path/blah.less(2): @variable red
-/path/blah.less(4): @other #ff3333
+.../my.less(1): @variable: blue; => blue
+.../my.less(2): @variable: red; => red
+.../my.less(4): @other: lighten(@variable, 10%); => #ff3333
 ```
