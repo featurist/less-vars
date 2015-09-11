@@ -2,20 +2,20 @@
   "name": "less-vars",
   "version": "2.5.1",
   "description": "show variable definitions and values",
-  "homepage": "http://lesscss.org",
   "author": {
     "name": "Alexis Sellier",
     "email": "self@cloudhead.net"
   },
   "contributors": [
-    "The Core Less Team"
+    "The Core Less Team",
+    "Tim Macfarlane <timmacfarlane@gmail.com>"
   ],
   "bugs": {
-    "url": "https://github.com/less/less.js/issues"
+    "url": "https://github.com/featurist/less-vars/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/less/less.js.git"
+    "url": "https://github.com/featurist/less-vars.git"
   },
   "license": "Apache-2.0",
   "bin": {

@@ -1,6 +1,6 @@
 ## less-vars
 
-Show how variables are defined in your less files, including how their values are changed during the compilation process.
+Debug your less: less-vars shows how variables are defined progressively in your less files, showing where they are defined and what values they evaluate to.
 
 ```sh
 npm install less-vars
